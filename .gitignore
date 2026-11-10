@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Saídas do bot (gravações, prints, análises: dezenas de GB; ficam só no PC)
+logs/
+*.mp4
+
+# Editores e sistema
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Templates recortados da arte do jogo (não é minha): ficam só no PC
+assets/
